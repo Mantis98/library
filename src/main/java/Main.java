@@ -18,7 +18,7 @@ public class Main {
             int option = SCANNER.nextInt();
             switch (option) {
                 case 1:
-                    System.out.println("[Wyswietl wszystkie ksiazki] jeszcze nie zaimplementowana");
+                    library.printAllBooks();
                     break;
                 case 2:
                     System.out.println("[Dodaj ksiazke] jeszcze nie zaimplementowana");
